@@ -1,0 +1,110 @@
+name: dishdiary
+description: A recipe management app with step-by-step cooking guidance
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cookie_jar: ^4.0.8
+  dio_cookie_manager: ^3.1.1
+  # State Management
+  flutter_riverpod: ^2.4.9
+  crypto: ^3.0.3
+  # Local Storage
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.1
+
+  # Preferences
+  shared_preferences: ^2.2.2
+
+  # Secure Storage
+  flutter_secure_storage: ^9.0.0
+
+  # HTTP & API
+  dio: ^5.4.0
+  http: ^1.1.0
+
+  # XML parsing (for YouTube transcript extraction)
+  xml: ^6.5.0
+
+  # UI Components
+  flutter_slidable: ^3.0.1
+  google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  carousel_slider: ^4.2.1
+  flutter_staggered_grid_view: ^0.7.0
+
+
+  # Chat
+  chat_bubbles: ^1.6.0
+
+  # Utilities
+  uuid: ^4.2.2
+  intl: ^0.20.2
+  equatable: ^2.0.5
+
+  # Text to Speech
+  flutter_tts: ^4.0.0
+
+  # Audio Player
+  audioplayers: ^6.0.0
+
+  android_intent_plus: ^5.0.0
+
+  # URL Launcher (for opening YouTube in browser)
+  url_launcher: 6.1.14
+
+  # Keep screen awake during cooking
+  wakelock_plus: ^1.2.8
+
+  # Local notifications for timer alerts
+  flutter_local_notifications: ^17.0.0
+
+  # Google Sign-In
+  google_sign_in: ^6.1.6
+  
+  # Google Drive for backup
+  googleapis: ^12.0.0
+  googleapis_auth: ^1.4.1
+  
+  # Excel for backup format
+  excel: ^4.0.2
+
+  # Sharing
+  share_plus: ^12.0.2
+
+  # File management for model downloads
+  path: ^1.8.3
+  permission_handler: ^12.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.7
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/sounds/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#1976D2"
+  adaptive_icon_foreground: "assets/app_icon.png"
+  web:
+    generate: true
+    image_path: "assets/app_icon.png"
+    background_color: "#1976D2"
+    theme_color: "#1976D2"

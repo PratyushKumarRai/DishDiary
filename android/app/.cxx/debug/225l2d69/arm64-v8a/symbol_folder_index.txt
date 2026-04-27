@@ -1,0 +1,1 @@
+C:\Users\Pratyush\Desktop\DishDiary\dishdiary\android\app\build\intermediates\cxx\debug\225l2d69\obj\arm64-v8a

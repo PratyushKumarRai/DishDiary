@@ -1,0 +1,2 @@
+C:/Users/Pratyush/Desktop/DishDiary/dishdiary/android/app/.cxx/debug/225l2d69/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Pratyush/Desktop/DishDiary/dishdiary/android/app/.cxx/debug/225l2d69/x86_64/CMakeFiles/rebuild_cache.dir
